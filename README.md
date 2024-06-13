@@ -1,6 +1,6 @@
 # lspdigital
 
-Project ini merupakan website sederhana sebagai tugas dari penilaian lsp digital
+Project ini merupakan website sederhana sebagai tugas dari penilaian lsp digital pada pelatihan VSGA Batch 3 UINSU Juni 2024
 
 Menggunakan PHP Native dan CSS sederhana
 
