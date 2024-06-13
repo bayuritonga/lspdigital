@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: o;
+    padding: 0;
+}
+
+
+/* ------------------ navigasi bar --------------------- */
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(22, 144, 123);
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .dropdown:hover, .dropbtn{
+    background-color: rgb(11, 144, 123);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(11,144,123);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #495057;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* -------------------- footer ---------------------- */
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(22, 144, 123);
+    color: #fff;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.kiri {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+
+
+
+/* Style the list inside the menu */
+.kiri ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+/* --------------------- profil ---------------------- */
+
+.profil{
+    border-radius: 10px;
+    align-content: center;
+    margin: auto;
+    padding-top: 10px;
+    width: 30%;
+}
+
+
+/* ------------------------ galeri foto ---------------------- */
+
+.galeri{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+    column-gap: 27px;
+    flex-flow: wrap;
+}
+
+.kartu{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    scroll-snap-align: center;
+}
+
+.kartu img{
+    border-radius: 10px;
+    max-width: 300px;
+    height: auto;
+}
+
+
+
+/*-------------------------- artikel -------------------------*/
+
+.article-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.article {
+    margin-bottom: 20px;
+}
+.article img {
+    max-width: 150px;
+    max-height: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+.article h2 {
+    margin-bottom: 10px;
+}
+.article p {
+    margin-bottom: 10px;
+}
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*-------------------------- detail artikel -------------------------*/
+
+.article-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.article h2 {
+    margin-bottom: 20px;
+}
+.article p {
+    margin-bottom: 20px;
+}
+
+
+
+/* ---------------------- halaman kontak -------------------------- */
+
+.kontak-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.kontak-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #444;
+    text-align: center;
+}
+
+.kontak-item {
+    margin-bottom: 15px;
+}
+
+.kontak-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.kontak-item p {
+    margin-bottom: 10px;
+}
